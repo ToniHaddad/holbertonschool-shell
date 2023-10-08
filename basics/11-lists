@@ -1,12 +1,2 @@
 #!/bin/bash
-
-echo "Listing for current directory:"
-ls -lA .
-echo ""
-
-echo "Listing for parent directory:"
-ls -lA ..
-echo ""
-
-echo "Listing for /boot directory:"
-ls -lA /boot
+ls -lA . .. /boot
