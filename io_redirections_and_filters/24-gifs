@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" | sort -f | awk -F/ '{ n = $NF; sub(/\.[^.]+$/, "", n); print n }'
+find . -type f -name "*.gif" -print | sort -f | rev | cut -d '/' -f 1 | cut -d '.' -f 2- | rev
