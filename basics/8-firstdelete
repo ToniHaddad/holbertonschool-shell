@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -f /holbertonschool-shell/basics/tmp/my_first_directory/betty
+cat /tmp/my_first_directory/betty
